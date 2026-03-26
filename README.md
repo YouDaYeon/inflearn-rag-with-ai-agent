@@ -11,20 +11,22 @@
   
 ---
 
-#### 이메일 작성 도우미
+### 실전 AI 에이전트 구축
+#### 1. 이메일 작성 도우미
 - `n8n`, `streamlit`
 
-#### 우리 회사 기사를 자동으로 받아볼
-- `n8n`, `spreadsheet`, `notion`
+#### 2. 우리 회사 기사 검색(네이버 뉴스 기사 스크랩)
+- `n8n`, `notion`
   
-#### 사내문서 검색
-- `n8n`, `LangGraph`
+#### 3. 사내 문서 QnA 봇
+- `n8n`, `LangGraph`, `py-zerox`, `Pinecone`
 
-#### SQL 몰라도 데이터 분석이 가능해요.
-- `n8n`, `supabase`
+#### 4. Text-to-SQL: 어제 서울에서 가장 많이 팔린 물건은?
+- `text-to-SQL?` 자연어 → SQL 변환 기술
+- `n8n`, `supabase`, `PostgreSQL`
 
-#### 개발자의 시간을 절약해주는 AI 코드 리뷰어
-- `n8n`, `LangGraph`, `MCP`
+#### 5. GitHub 코드 리뷰 에이전트
+- `n8n`, `Langchain`, `MCP`
 
-#### YouTube와 영상을 요약하는 에이전트
-- `LangGraph`, `MCP`
+#### 6. YouTube와 영상을 요약하는 에이전트
+- `LangGraph`, `MCP`, `Whisper`
